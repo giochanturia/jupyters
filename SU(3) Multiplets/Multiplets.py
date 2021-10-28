@@ -28,6 +28,10 @@ def expand_limits(ax, factor=1.2, factor_y=None):
     ax.set_xlim(factor*np.array(ax.get_xlim()))
     ax.set_ylim(factor_y*np.array(ax.get_ylim()))
     
+def rationalize_ticks(ax):
+    ax.set_xticklabels([str(fractions.Fraction(t).limit_denominator(30)) for t in ax.get_xticks().tolist()])
+    ax.set_yticklabels([str(fractions.Fraction(t).limit_denominator(30)) for t in ax.get_yticks().tolist()])
+    
 import matplotlib.text
 def accommodate_text(ax):
     plt.draw()
@@ -215,16 +219,18 @@ ax0.text(*((E+F)/2-1.65*pd*VT), r'$\mu$', color=mu_c)
 ax0.text(*((F+A)/2+1.50*pd*IT), r'$\lambda$', color=lamb_c)
 
 expand_limits(ax0, 1.3)
+
+plt.tight_layout()
 plt.show()
 
 
-# In[ ]:
+# In[5]:
 
 
 fig0.savefig("fig_multiplet_building.pdf")
 
 
-# In[5]:
+# In[6]:
 
 
 fig1, ax1 = plt.subplots()
@@ -239,10 +245,15 @@ draw_multiplet(ax1, 1, 0,
 ax1.set_title(r"Triplet $D^{(1,0)}$ or 3")
 accommodate_text(ax1)
 
+ax1.set_xticks([-1/2, 0, 1/2])
+ax1.set_yticks([-2/3, 0, 1/3])
+rationalize_ticks(ax1)
+
+plt.tight_layout()
 plt.show()
 
 
-# In[6]:
+# In[7]:
 
 
 fig2, ax2 = plt.subplots()
@@ -257,10 +268,15 @@ draw_multiplet(ax2, 0, 1,
 ax2.set_title(r"Triplet $D^{(0,1)}$ or $\bar{3}$")
 accommodate_text(ax2)
 
+ax2.set_xticks([-1/2, 0, 1/2])
+ax2.set_yticks([-1/3, 0, 2/3])
+rationalize_ticks(ax2)
+
+plt.tight_layout()
 plt.show()
 
 
-# In[7]:
+# In[8]:
 
 
 fig3, ax3 = plt.subplots()
@@ -275,10 +291,15 @@ draw_multiplet(ax3, 2, 0,
 ax3.set_title(r"Sextet $D^{(2,0)}$ or 6")
 accommodate_text(ax3)
 
+ax3.set_xticks([-1, -1/2, 0, 1/2, 1])
+ax3.set_yticks([-4/3, -1/3, 0, 2/3])
+rationalize_ticks(ax3)
+
+plt.tight_layout()
 plt.show()
 
 
-# In[8]:
+# In[9]:
 
 
 fig4, ax4 = plt.subplots()
@@ -293,10 +314,15 @@ draw_multiplet(ax4, 1, 1,
 ax4.set_title(r"Octet $D^{(1,1)}$ or 8")
 accommodate_text(ax4)
 
+ax4.set_xticks([-1, -1/2, 0, 1/2, 1])
+ax4.set_yticks([-1, 0, 1])
+rationalize_ticks(ax4)
+
+plt.tight_layout()
 plt.show()
 
 
-# In[9]:
+# In[10]:
 
 
 fig5, ax5 = plt.subplots()
@@ -311,10 +337,15 @@ draw_multiplet(ax5, 3, 0,
 ax5.set_title(r"Decuplet $D^{(3,0)}$ or 10")
 accommodate_text(ax5)
 
+ax5.set_xticks([-3/2, -1, -1/2, 0, 1/2, 1, 3/2])
+ax5.set_yticks([-2, -1, 0, 1])
+rationalize_ticks(ax5)
+
+plt.tight_layout()
 plt.show()
 
 
-# In[10]:
+# In[11]:
 
 
 fig1.savefig("fig_multiplet_triplet.pdf")
@@ -324,7 +355,7 @@ fig4.savefig("fig_multiplet_octet.pdf")
 fig5.savefig("fig_multiplet_decuplet.pdf")
 
 
-# In[70]:
+# In[12]:
 
 
 figbas, axbas = plt.subplots()
@@ -369,16 +400,17 @@ axbas.text(*-V*1.1, r"$V_-$", ha='center', c='b', fontsize='x-large')
 axbas.text(*U*1.1, r"$U_+$", ha='center', c='g', fontsize='x-large')
 axbas.text(*-U*1.2, r"$U_-$", ha='center', c='g', fontsize='x-large')
 
+plt.tight_layout()
 plt.show()
 
 
-# In[71]:
+# In[13]:
 
 
 figbas.savefig("fig_su3_basis.pdf")
 
 
-# In[126]:
+# In[14]:
 
 
 figoctet, axoctet = plt.subplots()
@@ -393,6 +425,7 @@ draw_multiplet(axoctet, 1, 1,
 axoctet.text(0.5, 1.1, "A", fontsize='large')
 axoctet.text(1.1, 0.0, "B", fontsize='large')
 axoctet.text(-0.5, 1.1, "F", fontsize='large')
+axoctet.text(-.05, -.15, "O", fontsize='large', ha='right')
 
 axoctet.annotate(text=r"$|\phi_{max}\rangle$", xy=(0.55, 1.0), xytext=(.75, 1.0), arrowprops=dict(arrowstyle='->', color='gray'))
 
@@ -406,18 +439,23 @@ axoctet.arrow(1.0, 0.0, *-I*0.87, head_width=0.05, head_length=0.05, fc='r', ec=
 
 accommodate_text(axoctet)
 
+axoctet.set_xticks([-1, -1/2, 0, 1/2, 1])
+axoctet.set_yticks([-1, 0, 1])
+rationalize_ticks(axoctet)
+
 axoctet.set_title(r"Multiplicity in the octet")
 
+plt.tight_layout()
 plt.show()
 
 
-# In[127]:
+# In[15]:
 
 
 figoctet.savefig("fig_octet_multiplicity.pdf")
 
 
-# In[156]:
+# In[16]:
 
 
 figmult, axmult = plt.subplots()
@@ -434,10 +472,11 @@ axmult.text(-1, 3.5, "3", ha='center', c='purple')
 axmult.text(-0.5, 2.5, "4", ha='center', c='purple')
 axmult.text(-0.5, 0.5, "4", ha='center', c='purple')
 
+plt.tight_layout()
 plt.show()
 
 
-# In[157]:
+# In[17]:
 
 
 figmult.savefig("fig_multiplicity.pdf")
