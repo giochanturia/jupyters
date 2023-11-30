@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.5.30)  18 SEP 2023 12:17
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.5.30)  20 SEP 2023 11:57
  restricted system commands enabled.
 **interlacing.tex
 (./interlacing.tex
@@ -142,14 +142,14 @@ LaTeX Font Info:    ... okay on input line 5.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* h-part:(L,W,R)=(31.35516pt, 534.79755pt, 31.35516pt)
 * v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=433.62pt
+* \textwidth=534.79755pt
 * \textheight=578.15999pt
-* \oddsidemargin=9.67395pt
-* \evensidemargin=9.67395pt
+* \oddsidemargin=-40.91483pt
+* \evensidemargin=-40.91483pt
 * \topmargin=-2.51526pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -190,84 +190,29 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<../img//bastian_interlaced.png, id=1, 602.25pt x 602.25pt>
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 25.
-
-(luatex.def)             Requested size: 146.7025pt x 146.70801pt.
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 26.
-
-(luatex.def)             Requested size: 147.42848pt x 147.43031pt.
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 27.
-
-(luatex.def)             Requested size: 148.15445pt x 148.15372pt.
-
-Overfull \hbox (32.54544pt too wide) in paragraph at lines 25--28
-[][]  []  [] 
- []
-
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 31.
-
-(luatex.def)             Requested size: 148.87125pt x 148.87602pt.
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 32.
-
-(luatex.def)             Requested size: 149.59721pt x 149.59943pt.
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 33.
-
-(luatex.def)             Requested size: 150.3232pt x 150.32173pt.
-
-Overfull \hbox (39.05167pt too wide) in paragraph at lines 31--34
-[][]  []  [] 
- []
-
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 37.
-
-(luatex.def)             Requested size: 151.03998pt x 151.04402pt.
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 38.
-
-(luatex.def)             Requested size: 151.76596pt x 151.76744pt.
-File: ../img//bastian_interlaced.png Graphic file (type png)
-<use ../img//bastian_interlaced.png>
-Package luatex.def Info: ../img//bastian_interlaced.png  used on input line 39.
-
-(luatex.def)             Requested size: 152.49193pt x 152.48973pt.
-
-Overfull \hbox (45.55788pt too wide) in paragraph at lines 37--40
-[][]  []  [] 
- []
+<../img//apples_interlaced.png, id=1, 1426.32875pt x 1204.5pt>
+File: ../img//apples_interlaced.png Graphic file (type png)
+<use ../img//apples_interlaced.png>
+Package luatex.def Info: ../img//apples_interlaced.png  used on input line 42.
+(luatex.def)             Requested size: 175.20016pt x 147.95424pt.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../img//bastian_interlaced.p
-ng>] (./interlacing.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../img//apples_interlaced.pn
+g>] (./interlacing.aux))
 
 Here is how much of LuaTeX's memory you used:
- 2019 strings out of 478382
+ 1971 strings out of 478382
  100000,1977958 words of node,token memory allocated
- 411 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 49 glue_spec,
+ 416 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 50 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:149,3:74,4:1,5:34,6:6,7:118,9:158
+   avail lists: 2:37,3:10,4:1,5:23,6:2,7:36,9:38
  22043 multiletter control sequences out of 65536+600000
  15 fonts using 723367 bytes
  55i,5n,59p,206b,124s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf>
-Output written on interlacing.pdf (1 page, 297800 bytes).
+Output written on interlacing.pdf (1 page, 1410375 bytes).
 
 PDF statistics: 16 PDF objects out of 1000 (max. 8388607)
  8 compressed objects within 1 object stream
