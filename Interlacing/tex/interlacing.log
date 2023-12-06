@@ -1,13 +1,14 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.5.30)  20 SEP 2023 11:57
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2023.10.31)  6 DEC 2023 13:11
  restricted system commands enabled.
 **interlacing.tex
 (./interlacing.tex
-LaTeX2e <2022-11-01> patch level 1
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-05>
 Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
 Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "/home/chanto/.texlive2022/texmf-var
+luaotfload | conf : Root cache directory is "/home/chanto/.texlive2023/texmf-var
 /luatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
 olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2022-
@@ -19,7 +20,7 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/chanto/.texlive2022/texmf-var
+luaotfload | conf : Root cache directory is "/home/chanto/.texlive2023/texmf-var
 /luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
@@ -37,14 +38,13 @@ Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
-ing layer <2023-01-16>
-Inserting `tracingstacklevels' in `input_level_string'.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/tex
+mf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/chanto/.texlive2022/texm
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/chanto/.texlive2023/texm
 f-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count183
 \c@section=\count184
@@ -63,7 +63,7 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -82,7 +82,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen145
 \Gm@layouthoffset=\dimen146
 \Gm@layoutvoffset=\dimen147
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -105,8 +105,9 @@ File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 \Gin@req@width=\dimen149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count194
+Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box51
 )
 (./interlacing.aux)
@@ -124,7 +125,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
@@ -175,12 +176,12 @@ LaTeX Font Info:    ... okay on input line 5.
 \scratchbox=\box52
 \nofMPsegments=\count196
 \nofMParguments=\count197
-\everyMPshowfont=\toks18
+\everyMPshowfont=\toks19
 \MPscratchCnt=\count198
 \MPscratchDim=\dimen151
 \MPnumerator=\count199
 \makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks19
+\everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -190,29 +191,180 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<../img//apples_interlaced.png, id=1, 1426.32875pt x 1204.5pt>
-File: ../img//apples_interlaced.png Graphic file (type png)
-<use ../img//apples_interlaced.png>
-Package luatex.def Info: ../img//apples_interlaced.png  used on input line 42.
-(luatex.def)             Requested size: 175.20016pt x 147.95424pt.
+<../img/bw_interlaced_horizontal.png, id=1, 301.125pt x 60.225pt>
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 54.
+(luatex.def)             Requested size: 65.76596pt x 13.15305pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 56.
+(luatex.def)             Requested size: 66.48827pt x 13.29732pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 58.
+(luatex.def)             Requested size: 67.21056pt x 13.44159pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 60.
+(luatex.def)             Requested size: 67.93398pt x 13.58679pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 62.
+(luatex.def)             Requested size: 68.65627pt x 13.73106pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 64.
+(luatex.def)             Requested size: 69.37968pt x 13.87534pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 66.
+(luatex.def)             Requested size: 70.10197pt x 14.02054pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 68.
+(luatex.def)             Requested size: 70.82428pt x 14.16481pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 70.
+(luatex.def)             Requested size: 71.54768pt x 14.30908pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 72.
+(luatex.def)             Requested size: 72.26999pt x 14.45428pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 75.
+(luatex.def)             Requested size: 72.9923pt x 14.59856pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 77.
+(luatex.def)             Requested size: 73.7157pt x 14.74284pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 79.
+(luatex.def)             Requested size: 74.438pt x 14.88712pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 81.
+(luatex.def)             Requested size: 75.16031pt x 15.0323pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 83.
+(luatex.def)             Requested size: 75.88371pt x 15.17659pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 85.
+(luatex.def)             Requested size: 76.60602pt x 15.32086pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 87.
+(luatex.def)             Requested size: 77.32942pt x 15.46606pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 89.
+(luatex.def)             Requested size: 78.05173pt x 15.61034pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 91.
+(luatex.def)             Requested size: 78.77403pt x 15.75461pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 93.
+(luatex.def)             Requested size: 79.49744pt x 15.89981pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 97.
+(luatex.def)             Requested size: 80.21974pt x 16.04408pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 99.
+(luatex.def)             Requested size: 80.94205pt x 16.18835pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 101.
+(luatex.def)             Requested size: 81.66545pt x 16.33264pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 103.
+(luatex.def)             Requested size: 82.38774pt x 16.47783pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 105.
+(luatex.def)             Requested size: 83.11005pt x 16.6221pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 107.
+(luatex.def)             Requested size: 83.83345pt x 16.76639pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 109.
+(luatex.def)             Requested size: 84.55576pt x 16.91066pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 111.
+(luatex.def)             Requested size: 85.27806pt x 17.05585pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 113.
+(luatex.def)             Requested size: 86.00146pt x 17.20013pt.
+File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
+<use ../img/bw_interlaced_horizontal.png>
+Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
+e 115.
+(luatex.def)             Requested size: 86.72377pt x 17.3444pt.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../img//apples_interlaced.pn
-g>] (./interlacing.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../img/bw_interlaced_horizon
+tal.png>] (./interlacing.aux)
+ ***********
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-05>
+ ***********
+)
 
 Here is how much of LuaTeX's memory you used:
- 1971 strings out of 478382
+ 1981 strings out of 478043
  100000,1977958 words of node,token memory allocated
- 416 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 50 glue_spec,
+ 406 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:37,3:10,4:1,5:23,6:2,7:36,9:38
- 22043 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:442,3:242,4:1,5:76,6:60,7:742,9:560
+ 22415 multiletter control sequences out of 65536+600000
  15 fonts using 723367 bytes
- 55i,5n,59p,206b,124s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,62p,206b,124s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf>
-Output written on interlacing.pdf (1 page, 1410375 bytes).
+Output written on interlacing.pdf (1 page, 16705 bytes).
 
 PDF statistics: 16 PDF objects out of 1000 (max. 8388607)
  8 compressed objects within 1 object stream
