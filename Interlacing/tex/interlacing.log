@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2023.10.31)  6 DEC 2023 13:11
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2023.10.31)  10 DEC 2023 15:07
  restricted system commands enabled.
 **interlacing.tex
 (./interlacing.tex
@@ -191,162 +191,86 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<../img/bw_interlaced_horizontal.png, id=1, 301.125pt x 60.225pt>
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 54.
-(luatex.def)             Requested size: 65.76596pt x 13.15305pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 56.
-(luatex.def)             Requested size: 66.48827pt x 13.29732pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 58.
-(luatex.def)             Requested size: 67.21056pt x 13.44159pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 60.
-(luatex.def)             Requested size: 67.93398pt x 13.58679pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 62.
-(luatex.def)             Requested size: 68.65627pt x 13.73106pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 64.
-(luatex.def)             Requested size: 69.37968pt x 13.87534pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 66.
-(luatex.def)             Requested size: 70.10197pt x 14.02054pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 68.
-(luatex.def)             Requested size: 70.82428pt x 14.16481pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 70.
-(luatex.def)             Requested size: 71.54768pt x 14.30908pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 72.
-(luatex.def)             Requested size: 72.26999pt x 14.45428pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 75.
-(luatex.def)             Requested size: 72.9923pt x 14.59856pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 77.
-(luatex.def)             Requested size: 73.7157pt x 14.74284pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 79.
-(luatex.def)             Requested size: 74.438pt x 14.88712pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 81.
-(luatex.def)             Requested size: 75.16031pt x 15.0323pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 83.
-(luatex.def)             Requested size: 75.88371pt x 15.17659pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 85.
-(luatex.def)             Requested size: 76.60602pt x 15.32086pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 87.
-(luatex.def)             Requested size: 77.32942pt x 15.46606pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 89.
-(luatex.def)             Requested size: 78.05173pt x 15.61034pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 91.
-(luatex.def)             Requested size: 78.77403pt x 15.75461pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 93.
-(luatex.def)             Requested size: 79.49744pt x 15.89981pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 97.
-(luatex.def)             Requested size: 80.21974pt x 16.04408pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 99.
-(luatex.def)             Requested size: 80.94205pt x 16.18835pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 101.
-(luatex.def)             Requested size: 81.66545pt x 16.33264pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 103.
-(luatex.def)             Requested size: 82.38774pt x 16.47783pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 105.
-(luatex.def)             Requested size: 83.11005pt x 16.6221pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 107.
-(luatex.def)             Requested size: 83.83345pt x 16.76639pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 109.
-(luatex.def)             Requested size: 84.55576pt x 16.91066pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 111.
-(luatex.def)             Requested size: 85.27806pt x 17.05585pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 113.
-(luatex.def)             Requested size: 86.00146pt x 17.20013pt.
-File: ../img/bw_interlaced_horizontal.png Graphic file (type png)
-<use ../img/bw_interlaced_horizontal.png>
-Package luatex.def Info: ../img/bw_interlaced_horizontal.png  used on input lin
-e 115.
-(luatex.def)             Requested size: 86.72377pt x 17.3444pt.
+<../img/mag_gi_interlaced_horizontal.png, id=1, 361.35pt x 622.325pt>
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 134.
+(luatex.def)             Requested size: 87.44717pt x 150.60501pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 135.
+(luatex.def)             Requested size: 88.16948pt x 151.84897pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 136.
+(luatex.def)             Requested size: 88.89178pt x 153.09294pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 137.
+(luatex.def)             Requested size: 89.61519pt x 154.3369pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 138.
+(luatex.def)             Requested size: 90.3375pt x 155.58086pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 141.
+(luatex.def)             Requested size: 91.0598pt x 156.82483pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 142.
+(luatex.def)             Requested size: 91.7832pt x 158.06879pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 143.
+(luatex.def)             Requested size: 92.50551pt x 159.31274pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 144.
+(luatex.def)             Requested size: 93.22781pt x 160.55672pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 145.
+(luatex.def)             Requested size: 93.95122pt x 161.80067pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 147.
+(luatex.def)             Requested size: 94.67352pt x 163.04463pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 148.
+(luatex.def)             Requested size: 95.39693pt x 164.2886pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 149.
+(luatex.def)             Requested size: 96.11923pt x 165.53256pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 150.
+(luatex.def)             Requested size: 96.84152pt x 166.77654pt.
+File: ../img/mag_gi_interlaced_horizontal.png Graphic file (type png)
+<use ../img/mag_gi_interlaced_horizontal.png>
+Package luatex.def Info: ../img/mag_gi_interlaced_horizontal.png  used on input
+ line 151.
+(luatex.def)             Requested size: 97.56493pt x 168.02998pt.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../img/bw_interlaced_horizon
-tal.png>] (./interlacing.aux)
+<../img/mag_gi_interlaced_horizontal.png>] (./interlacing.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -354,20 +278,19 @@ L3 programming layer <2023-06-05>
 )
 
 Here is how much of LuaTeX's memory you used:
- 1981 strings out of 478043
+ 1936 strings out of 478043
  100000,1977958 words of node,token memory allocated
  406 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:442,3:242,4:1,5:76,6:60,7:742,9:560
+   avail lists: 1:1,2:208,3:98,4:1,5:46,6:6,7:128,9:242
  22415 multiletter control sequences out of 65536+600000
  15 fonts using 723367 bytes
  57i,5n,62p,206b,124s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf>
-Output written on interlacing.pdf (1 page, 16705 bytes).
+Output written on interlacing.pdf (1 page, 464842 bytes).
 
-PDF statistics: 16 PDF objects out of 1000 (max. 8388607)
- 8 compressed objects within 1 object stream
+PDF statistics: 9 PDF objects out of 1000 (max. 8388607)
+ 4 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
